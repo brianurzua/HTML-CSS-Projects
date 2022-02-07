@@ -1,2 +1,3 @@
 # HTML CSS Projects
- Projects for my HTML and CSS Course
+
+This repository will be used for my HTML and CSS course projects.
