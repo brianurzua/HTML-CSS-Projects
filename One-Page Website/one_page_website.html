@@ -2,17 +2,26 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<div>
-		<img src="snowboarders.png" alt="A picture of 2 snowboarders" height="400px" width="1024px" style="vertical-align: middle;">
-
 		<div>
 			<title>Snowboarding 101</title>
+			<link rel="stylesheet" href="CSS_onepage/one_page_website.css">
 		</div>
-	</div>
-
 	
 </head>
 <body>
+	<!-- start -->
+	<div class="background">
+		<img src="snowboarders.png" height="100%"width="100%" >
+		<div class="container">
+			<div class="text-center">
+				<span class="head-main">Snowboarding 101</span>
+			</div>
+		</div>
+		
+	</div>
+	<!-- end start -->
+
+
 	<!--nav-->
 		<div>
 			<div>
@@ -129,19 +138,25 @@
 	<!-- Contact Us -->
 	<section>
 		<div id="contactus">
-			<div>
+			<div class="container">
 				<h2><span>Contact Us</span></h2>
 				<p>If you have any questions or just want to let us know about your experience</p>
 				<div>
 					<form action="" method="post">
-							First name*: <input class ="sign_up" type="text" name="First_Name">
-							Last name*: <input class ="sign_up" type="text" name="Last_Name">
-							Email*: <input class ="sign_up" type="email" name="Email">
-							Phone Number: <input type="text" name="Phone Number">
-							Comments:<textarea rows="4" cols="50" name="Comment"></textarea>
-							<div class="form-spacer">
-								<label class="terms">* are required fields</label>
-							</div>
+							<label>First name*:</label>
+							<input class ="sign_up" type="text" name="First_Name" placeholder="Your First Name">
+							<label>Last name*:</label>
+							<input class ="sign_up" type="text" name="Last_Name" placeholder="Your Last Name">
+							<label>Email*:</label>
+							<input class ="sign_up" type="text" name="Email" placeholder="Email">
+							<label> Phone Number:</label>
+							<input class ="sign_up" type="text" placeholder="Phone Number">
+							<label>Comments:</label>
+							<textarea rows="4" cols="50" name="Comment" placeholder="Write your thoughts"></textarea>
+								<div class="form-spacer">
+									<p>* are required fields</p>
+								</div>
+							
 					<div>
 						<input type="submit" value="Submit">
 					</div>
