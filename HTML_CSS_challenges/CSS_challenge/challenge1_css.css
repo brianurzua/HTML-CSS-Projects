@@ -18,3 +18,64 @@ footer{
 	text-align: center;
 	font-weight: 700;
 }
+
+
+.tablehead{
+	text-align: center;
+}
+
+table{
+	text-align: left;
+	border: 2px solid;
+	border-radius: 10px;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+th{
+	border: 2px solid;
+	background-color: #03bafc;
+	padding-left: 4px;
+}
+ td{
+ 	border: 2px solid;
+ 	padding: 4px;
+ }
+
+.container{
+	position: relative;
+	text-align: center;
+	color: black;
+}
+
+.imagetxt{
+	position: absolute;
+	bottom: 8px;
+	left: 925px;
+	font-weight: bold;
+	font-size: 14pt;
+}
+
+.navbar{
+	position: fixed;
+	background-color: #f07837;
+	width: 100%;
+	top: 0;
+	overflow: hidden;
+}
+
+.navbar a{
+	float: left;
+	display: block;
+	text-align: center;
+	padding: 14px;
+	text-decoration: none;
+	text-align: center;
+	font-size: 14pt;
+	color: navy;
+}
+
+.navbar a:hover{
+	background-color: #ed8d07;
+	color: #0716ed;
+}
