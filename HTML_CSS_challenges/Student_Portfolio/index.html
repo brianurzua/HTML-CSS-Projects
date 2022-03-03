@@ -1,29 +1,32 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Brian's Portfolio</title>
-	<link rel="stylesheet" type="text/css" href="My_stylesheet/portfolio.css">
-</head>
-<body>
-	<!--Nav bar-->
+    <!--Head-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" />
+        <title>Your Name Here</title>
+        <link rel="stylesheet" type="text/css" href="stylesheet/portfolio.css">
+    </head>
+
+    <!--Body-->
+    <body class="Background">
+        
+        <!--Navbar-->
         <div class="Navbar">
-            <a href="#Home">Home</a>
+            <a class="active" href="#Home">Home</a>
             <a href="#About">About</a>
             <a href="#GitHub">GitHub</a>
-            <a href="#Contact">Contact Me!</a>
+            <a href="#Contact">Contact</a>
         </div>
+
         <!--Breaks inserted to add space between navbar and the first heading-->
         <br>
         <br>
-	<!--End of Nav bar-->
-
 
         <!--Background video-->
         <div id="Home">
             <video autoplay muted loop id="Typing_Video">
-                <source src="media/coding.mp4" type="video/mp4">
+                <source src="images/video/Typing.mp4" type="video/mp4">
                 <!--Display message if video fails to run-->
                 Your browser does not support HTML5 video.
             </video>
@@ -31,16 +34,18 @@
 
         <!--Video text-->
         <div class="Video_Text">
-            <h1 class="white-text">I am a software developer</h1>
+            <h1 class="white-text">Your Name's Portfolio</h1>
             <strong>
                 <p class="center">
-                    <q>Everybody should learn to program a computer, because it teaches you how to think
+                    <q>The computer programmer is a creator of universes for which he alone is the lawgiver.
+                        <br>No playwright, no stage director, no emperor, however powerful, has ever exercised such absolute authority to arrange a stage or
+                        <br>field of battle and to command such unswervingly dutiful actors or troops.
                     </q>
-                    <br> -Steve Jobs
+                    <br> -Joseph Weizenbaum
                     <br>
-                    <br> My Name is Brian Urzua. Welcome to my portfolio website. On it I will tell you about my background and experience.
+                    <br> My name is ____. Welcome to my portfolio website. On it, I will tell you about my background and experience.
                     <br>
-                    <br> Thank You for Visiting! I hope you enjoy!
+                    <br> Thank you for stopping by and enjoy! 
                 </p>
             </strong>
         </div>
@@ -49,17 +54,17 @@
         <div class="Row" id="About">
             <!--Left column-->
             <div class="Column_2">
-                <img src="media/typing.jpg" alt="A picture of someone typing">
+                <img src="images/html_custom.png" alt="Replace with your own image and description">
             </div>
             <!--Right column-->
             <div class="Column_1">
                 <h1>About</h1>
                 <p>
-                   I am a software developer who is actively honing his programming skills.  
+                    I am a software developer who loves to code! As a father of two, I enjoy time with my family and traveling. 
                     <br>
-                    <br>I am currently enrolled in the Python boot camp at <a href="https://www.learncodinganywhere.com/">The Tech Academy</a> located in Portland, Oregon. By the end of this bootcamp I will have experience in HTML, CSS, Javascript, and Python 
+                    <br>I am a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>’s Software Developer Boot Camp, and trained and experienced in the following web and programming languages: HTML, CSS, JavaScript, SQL, C# and more. 
                     <br>
-                    <br>I will be a full-stack developer and would love to work with you on your project. <a href="#Contact">Contact</a> me below!
+                    <br>I am a full-stack developer and would love to work with you on your project. <a href="#Contact">Contact</a> me below!
                 </p>
             </div>
         </div>
@@ -72,12 +77,12 @@
                 <p>
                     You can view my coding projects on my GitHub profile here:
                     <br>
-                    <p class="center"><a href="https://github.com/brianurzua" target="_blank">Brian Urzua's Github</a></p>
+                    <p class="center"><a href="https://github.com/the-tech-academy" target="_blank">The Tech Academy Github</a></p>
                 </p>
             </div>
             <!--Right column-->
             <div class="Column_2">
-                <a href="https://github.com/brianurzua" target="_blank"><img src="media/GitHub-Mark.png" alt="GitHub Logo"></a>
+                <a href="https://github.com/the-tech-academy" target="_blank"><img src="images/GitHub.png" alt="GitHub Logo"></a>
             </div>
         </div>
 
@@ -85,13 +90,13 @@
         <div class="Row" id="Contact">
             <!--Contact image, left column-->
             <div class="Column_2 Column_tall">
-                <img src="media/code.jpg" alt="Contact_Image" class="code_img">
+                <img src="images/html_custom.png" alt="Contact_Image">
             </div>
             <!--Contact form, right column-->
             <div class="Column_1 Column_tall">
                 <h1>Contact</h1>
                 <!--This specifies where and how to send the form data; we are leaving it blank-->
-                <form action="https://formspree.io/f/mrgjkkkd" method="POST"> <!-- Here we are utilizing a 3rd party service to submit the contact form data, insert your formspree endpoint in the action attribute -->
+                <form action="" method="POST"> <!-- Here we are utilizing a 3rd party service to submit the contact form data, insert your formspree endpoint in the action attribute -->
                     <label>Name:</label>
                         <input type="text" placeholder="Please enter your name here">
                     <label>Email:</label>
@@ -110,7 +115,5 @@
                 <br>
             </p>
         </footer>
-
-
-</body>
+    </body>
 </html>
