@@ -5,13 +5,14 @@
 		<div>
 			<title>Snowboarding 101</title>
 			<link rel="stylesheet" href="CSS_onepage/one_page_website.css">
+			<script type="text/javascript" src="JS/one_page_website.js" defer></script>
 		</div>
 	
 </head>
 <body>
 	<!-- start -->
 	<div class="background">
-		<img src="snowboarders.png" height="100%"width="100%" >
+		<img src="images/snowboarders.png" height="100%"width="100%" >
 		<div class="container">
 			<div class="text-center">
 				<span class="head-main">Snowboarding 101</span>
@@ -43,6 +44,71 @@
 		</div>	
 
 	<!-- End Home -->
+
+
+	<!-- Images strip -->
+	<div class="row">
+	  <div class="column">
+	    <img src="images/ccsnow.png" width="250" height="250" onclick="openModal();currentSlide(1)" class="hover-shadow">
+	  </div>
+	  <div class="column">
+	    <img src="images/skilift.png" width="250" height="250" onclick="openModal();currentSlide(2)" class="hover-shadow">
+	  </div>
+	  <div class="column">
+	    <img src="images/snowbrd.png" width="250" height="250" onclick="openModal();currentSlide(3)" class="hover-shadow">
+	  </div>
+	  <div class="column">
+	    <img src="images/cksnow.png" width="250" height="250" onclick="openModal();currentSlide(4)" class="hover-shadow">
+	  </div>
+	</div>
+
+	<div id="myModal" class="modal">
+	  <span class="close cursor" onclick="closeModal()">&times;</span>
+	  <div class="modal-content">
+
+	    <div class="mySlides">
+	      <div class="numbertext">1 / 4</div>
+	      <img src="images/ccsnow.png" style="width:100%">
+	    </div>
+
+	    <div class="mySlides">
+	      <div class="numbertext">2 / 4</div>
+	      <img src="images/skilift.png" style="width:100%">
+	    </div>
+
+	    <div class="mySlides">
+	      <div class="numbertext">3 / 4</div>
+	      <img src="images/snowbrd.png" style="width:100%">
+	    </div>
+
+	    <div class="mySlides">
+	      <div class="numbertext">4 / 4</div>
+	      <img src="images/cksnow.png" style="width:100%">
+	    </div>
+
+	<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+    <div class="column">
+      <img class="demo cursor" src="images/ccsnow.png" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/skilift.png" style="width:100%" onclick="currentSlide(2)" alt="Snow">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/snowbrd.png" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/cksnow.png" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+    </div>
+  </div>
+</div>
+	<!-- End Images strip -->
+
 
 	<!-- Snowboarding Gear -->
 	<section>
